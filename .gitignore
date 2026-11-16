@@ -1,0 +1,19 @@
+# 測試音訊（tools/make-test-audio.ps1 產生、或自行錄製）：檔案大，錄音也可能含有私人對話
+# 正確文字 refs.tsv 要進版控
+samples/**/*.wav
+samples/**/*.mp3
+samples/**/*.m4a
+samples/**/*.flac
+samples/**/*.ogg
+samples/**/*.opus
+samples/**/*.webm
+
+# 環境變數（VLLM_API_KEY 等）
+.env
+.env.*
+
+# 系統與編輯器
+node_modules/
+*.log
+.DS_Store
+Thumbs.db

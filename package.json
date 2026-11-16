@@ -1,0 +1,10 @@
+{
+  "name": "asr-eval-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "語音轉文字的準確度評估工具：產生測試音檔、串接長音檔、計算 CER",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  }
+}
